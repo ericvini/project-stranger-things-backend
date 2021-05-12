@@ -1,0 +1,7 @@
+apps:
+ - script: ./index.js
+   instances: 2
+   max_memory_restart: 200M
+   watch: false
+   name: 'stranger-things'
+   exec_mode: cluster
